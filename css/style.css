@@ -1,0 +1,134 @@
+:root{
+    --theme-text-grey:#8e8e8e;
+    --theme-text-green:#77eb19;
+    --theme-text-red:#dc2424;
+}
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+html body{
+      font-family: 'Inter';
+}
+
+.container{
+    max-width: 1320px;
+    padding: 0 15px;
+    margin:  0 auto;
+}
+img{
+    width: 100%;
+    display: block;
+}
+.row{
+    display:flex;
+    flex-wrap: wrap;
+}
+.d-flex{
+    display: flex;
+}
+.col-4{
+    width: 25%;
+    padding: 0 15px;
+}
+a{
+    text-decoration: none;
+    color: inherit;
+}
+.justify-content-center{
+    justify-content: center;
+}
+.align-items-center{
+    align-items: center;
+}
+.text-align-center{
+    text-align: center;
+}
+/* our properties section start */
+.our-properties{
+    background-color: #f6f6f6;
+    padding-bottom: 100px;
+}
+.container .sec-heading{
+    margin-top: 100px;
+    text-align: center;
+    padding-top: 50px;
+}
+.container .sec-heading h3{
+    font-size:16px;
+    font-weight: 400;
+    color: var(--theme-text-green);
+
+}
+.container .sec-heading h2{
+    font-size:46px;
+    font-weight: 600;
+    color: #3c3b3b;
+    margin-top: 10px;
+}
+.container .sec-content{
+    background: #ffffff;
+    padding-bottom:20px ;
+}
+.container .sec-img{
+    margin-top: 50px;
+}
+.container .sec-text p{
+    margin-top: 20px;
+    margin-left: 10px;
+    font-size: 12px;
+    font-weight: 400;
+    color:var(--theme-text-grey);
+}
+.container .sec-text span{
+    margin-top: 20px;
+    margin-left: 100px;
+    font-size: 12px;
+    font-weight: 300;
+    color:var(--theme-text-grey);
+}
+.container .sec-text img{
+    width: 40px;
+    border-radius: 50%;
+    margin-top: 10px;
+}
+.container .sec-info{
+    padding: 20px;
+}
+.container .sec-info h4{
+    font-size: 20px;
+    font-weight: 500;
+    margin-bottom: 10px;
+}
+.container .sec-info i{
+    font-size: 10px;
+    color: var(--theme-text-grey);
+    margin-right: 5px;
+}
+.container .sec-info span{
+    margin-left:30px;
+    background:var(--theme-text-green);
+    padding:0 6px;
+    color:#ede8e8;
+    font-size: 12px;
+}
+.container .sec-info .rent-1{
+    margin-left:30px;
+    background:var(--theme-text-red);
+    padding:0 6px;
+    color:#ede8e8;
+}
+.container .icons{
+    padding-bottom: 20px;
+}
+.container .icons img{
+    display: inline-block;
+    width: 30px;
+    margin-left: 20px;
+   
+}
+.container .icons  span{
+     font-size: 14px;
+}
+/* our properties section end */
