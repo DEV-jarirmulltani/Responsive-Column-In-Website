@@ -14,7 +14,7 @@
     margin: 0 auto;
 }
 html body {
-    font-family: "Nunito Sans", Arial, sans-serif;
+     font-family: 'Open Sans Condensed';
 }
 img {
     display: block;
@@ -39,6 +39,9 @@ ul li {
 }
 .align-items-center {
     align-items: center;
+}
+.text-align-center {
+    text-align: center;
 }
 .justify-content-between {
     justify-content: space-between;
@@ -89,7 +92,7 @@ ul li {
     opacity: .3;
     background: #000000;
     z-index: -1;
-    transition: all 0.3s ease;
+    transition: all 0.5s ease;
 }
 .our-properties .content-card:hover .bg-img::after {
     opacity: 0;
@@ -146,23 +149,24 @@ ul li {
     background-color: var(--theme-text-green);
 }
 .our-properties .profile-img {
-    width: 50px;
+    width: 36px;
+    height: 36px;
     border-radius: 50%;
     overflow: hidden;
-    margin-top: 10px;
-
+    margin-top: 5px;
+    margin-left: 10px;
 }
-.our-properties .sec-content .profile-text h3 {
-    font-size: 16px;
+.our-properties .sec-content h3 {
+    font-size: 14px;
     font-weight: 400;
     color: var(--theme-text-grey);
-    padding: 20px;
+    margin: 10px 10px;
 }
-.our-properties .sec-content .profile-text span {
-    font-size: 16px;
+.our-properties .sec-content span {
+    font-size: 14px;
     font-weight: 400;
     color: var(--theme-text-grey);
-    padding: 20px;
+    margin: 10px 20px;
 }
 .our-properties .property-info p {
     font-size: 18px;
@@ -176,25 +180,34 @@ ul li {
     color: var(--theme-text-grey);
     padding: 10px;
 }
-.our-properties .property-info span{
-    font-size: 16px;
+.our-properties .property-info >span{
+    font-size: 12px;
     font-weight: 300;
-    color: black;
+    color: rgb(250, 249, 249);
     margin-left: 20px;
     letter-spacing: 1px;
-    padding: 4px 10px;
+    padding: 4px 8px;
     background-color: var(--theme-text-green);
     text-align: center;
+}
+.our-properties .property-info .rent-1{
+    font-size: 12px;
+    font-weight: 300;
+    color: rgb(255, 253, 253);
+    margin-left: 20px;
+    letter-spacing: 1px;
+    padding: 4px 8px;
+    background-color: var(--theme-text-red);
+    text-align: center;
+}
+.our-properties .icons{
+    margin-top: 10px;
 }
 .our-properties .icons img {
     display: inline-block;
     width: 30px;
-    margin-left: 20px;
+    margin-left: 10px;
     margin-right: 10px;
-    margin-top: 10px;
+}
 
-}
-.our-properties .icons span {
-    font-size: 14px;
-}
 /* Our Properties Section End */
