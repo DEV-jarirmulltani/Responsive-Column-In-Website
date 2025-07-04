@@ -1,7 +1,8 @@
 :root {
     --theme-text-green: #5ea51d;
-    --theme-text-red: #fc2929;
+    --theme-text-red: #fd5c64;
     --theme-text-grey: #a9a7a7;
+    --theme-text-white: #ffffff;
 }
 * {
     margin: 0;
@@ -14,7 +15,7 @@
     margin: 0 auto;
 }
 html body {
-     font-family: 'Open Sans Condensed';
+    font-family: 'Noto Sans Condensed';
 }
 img {
     display: block;
@@ -36,6 +37,10 @@ ul li {
 }
 .d-flex {
     display: flex;
+}
+.d-flex-end{
+    display: flex;
+    justify-content: flex-end;
 }
 .align-items-center {
     align-items: center;
@@ -82,7 +87,7 @@ ul li {
     background-position: center center;
 
 }
-.our-properties .content-card .bg-img::after {
+.our-properties .content-card ::after {
     content: '';
     position: absolute;
     top: 0;
@@ -147,26 +152,31 @@ ul li {
     font-size: 16px;
     font-weight: 400;
     background-color: var(--theme-text-green);
-}
+}   
 .our-properties .profile-img {
     width: 36px;
     height: 36px;
     border-radius: 50%;
+     background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center center;
     overflow: hidden;
     margin-top: 5px;
     margin-left: 10px;
 }
-.our-properties .sec-content h3 {
+.our-properties .sec-content .img-heading h3 {
     font-size: 14px;
     font-weight: 400;
     color: var(--theme-text-grey);
-    margin: 10px 10px;
+    margin-left: 10px;
+
 }
-.our-properties .sec-content span {
+.our-properties .sec-content .text span{
     font-size: 14px;
     font-weight: 400;
+    text-align: right;
     color: var(--theme-text-grey);
-    margin: 10px 20px;
+    margin-right: 10px;
 }
 .our-properties .property-info p {
     font-size: 18px;
@@ -208,6 +218,12 @@ ul li {
     width: 30px;
     margin-left: 10px;
     margin-right: 10px;
+    fill: #787676;
+}
+.our-properties .icons span{
+    font-size: 14px;
+    font-weight: 400;
+    color: var(--theme-text-grey);
 }
 
 /* Our Properties Section End */
